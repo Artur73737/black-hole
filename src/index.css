@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@keyframes slide {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(300%); }
+}
+
+html, body, #root { height: 100%; margin: 0; background: #000; }
+canvas { display: block; }
